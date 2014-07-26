@@ -2,11 +2,12 @@
  * Generate nested html easily with the h() function.
  *
  * Format: h({
- *   tag: "a",
- *   att: [[""], []],
+ *   tag: "div",
+ *   att: { class:"my_class", ... },
  *   cnt: [
+ *     {tag:"h1", cnt: "Heading"},
  *     {...},
- *     {...}
+ *     {...},
  *   ] 
  * })
  */
